@@ -1,0 +1,35 @@
+.text {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+.text * {
+    flex: 1 100%;
+    padding: 17px;
+}
+.head {
+    background: lightblue;
+}
+.foot {
+    background: red;
+    flex: 1;
+}
+.main {
+    background: khaki;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+.aside-1 {
+    background: orange;
+    text-align: center;
+}
+.aside-2 {
+    background: pink;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
